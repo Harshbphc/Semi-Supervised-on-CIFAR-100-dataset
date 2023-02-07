@@ -23,3 +23,11 @@ I have implemented the above two using self training algorithm.
 Link to my Co-Training notebook - "link"
 
 I have used the above two architectures as the two classifiers in this algorithm.
+
+## Self training algorithm
+
+We train the classifier for some epochs. Then we predict each value in the unlabeled dataset. If we get the probability of a prediction above a threshold(confidence) level we appen the correspoding image with the predicted class and append to the labeled dataset. We keep doing this until certain iterations or till unlabeled dataset becomes empty.
+
+## Co training algorithm
+
+We train two classifiers for some epochs. Then we predict for unlabeled data for each classifier. We take the maximum of the max probabilities of the two predictions. If it exceeds the threshold value we append the data with the correspoding predicted class.
