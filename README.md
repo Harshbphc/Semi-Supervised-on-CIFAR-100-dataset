@@ -6,7 +6,7 @@ My project on the CIFAR 100 dataset using two semi-supervised algorithms
 2. Co-Training
 
 
-I have not implemented the algorithm completely because of limited time on GPUs, as it was taking a lot of time to predict all the values of the unlabeled dataset. I have taken a part of the unlabeled dataset in each iteration. Also I did not run the algorithm until the unlabeled dataset becomes empty due to the same reasons as above. However I have written the ideal code in the notebook and the user has to just uncomment the part of the code to run the complete algorithm
+I have not implemented the algorithm completely because of limited time on GPUs, as it was taking a lot of time to predict all the values of the unlabeled dataset. I have taken a part of the unlabeled dataset in each iteration. Also I did not run the algorithm until the unlabeled dataset becomes empty due to the same reasons as above. However I have written the ideal code in the notebook and the user has to just uncomment the part of the code to run the complete algorithm. (Please change the variable name of len(X_unlabeled) in the for loop and before the for loop while uncommenting.
 
 I have used two architectures-
 
